@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+
+        header img {
+            width: 120px;
+        }
+
+        header h1 {
+            line-height: 120px;
+            letter-spacing: 3px;
+        }
+
+        nav {
+            background-color: whitesmoke;
+            color: initial;
+        }
+
+        .selected {
+            background-color: grey;
+            color: white;
+        }
+
+        ul {
+            list-style-type: circle;
+        }
+
+        h2 {
+            font-size: 21px;
+            margin-bottom: 0px;
+        }
+
+        footer {
+            background-image: url("images/salmon.jpg");
+            background-size: 225px;
+            background-repeat: repeat-x;
+            border: solid black 3px;
+            min-height: 100px;
+        }
+
+        footer h2 {
+            font-size: 32px;
+            text-shadow: 2px 2px white;
+            line-height: 100px;
+        }
+
+        article p {
+            font-size: 20px;
+            line-height: 1.1;
+        }
+
+        @media only screen and (max-width: 720px) {
+            header h1 {
+                line-height: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header class="container-fluid">
+        <section class="row">
+            <div class="col-1 p-0"><img src="images/grizzly_with_fish.jpg" /></div>
+            <div class="col-11">
+                <h1 class="mb-0 mr-5 font-weight-bold text-right text-uppercase">Hungry Bear Fisheries</h1>
+            </div>
+        </section>
+    </header>
+    <main class="container-fluid m-1">
+        <nav class="row text-center">
+            <div class="col selected">
+                <h2>Our Fish</h2>
+            </div>
+            <div class="col">
+                <h2>Conservation</h2>
+            </div>
+            <div class="col">
+                <h2>About Us</h2>
+            </div>
+            <div class="col">
+                <h2>Contacts Us</h2>
+            </div>
+        </nav>
+        <div class="row mt-4">
+            <aside class="col-md-3 col-sm-12 text-center">
+                <h3 class="font-weight-bold ">Currently Available</h3>
+                <ul>
+                    <li>Atlantic Salmon</li>
+                    <li>Coho Salmon</li>
+                    <li>Chinook Salmon</li>
+                    <li>Sockeye Salmon</li>
+                    <li>Pink Salmon</li>
+                    <li>Rainbow Trout</li>
+                </ul>
+            </aside>
+            <section class="col-md-9 col-sm-12">
+                <article class="row mb-3">
+                    <div class="col-xl-2 col-lg-4 col-md-6 ">
+                        <img src="images/salmon_diving.jpg" class="img-fluid" /></div>
+                    <div class="col-xl-10 col-lg-8 col-md-6">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro mollitia dolor repudiandae,
+                            saepe,
+                            veniam optio sit inventore magnam qui fugiat ea facilis at, explicabo quaerat aliquam error
+                            eveniet
+                            ipsa consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsa
+                            assumenda, mollitia dignissimos maiores nesciunt ab modi autem possimus ratione natus dolor
+                            rem quae. Porro esse nobis illum quam facilis?</p>
+                    </div>
+                </article>
+                <article class="row my-4">
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <img src="images/chinook_salmon.png" class="img-fluid" /></div>
+                    <div class="col-xl-10 col-lg-8 col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit voluptas illo
+                            cupiditate
+                            error!
+                            Quo nam tempore omnis cupiditate! Eligendi exercitationem numquam maiores, nobis doloribus
+                            ipsam
+                            similique tempore error officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Illum totam labore iure quam esse soluta eos qui a. Fuga hic adipisci dolores ab nesciunt?
+                            Error fuga aliquam laboriosam animi? Fugiat!</p>
+                    </div>
+                </article>
+                <article class="row mt-2">
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <img src="images/salmon_swimming.jpg" class="img-fluid" /></div>
+                    <div class="col-xl-10 col-lg-8 col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam voluptatem autem
+                            incidunt
+                            possimus temporibus accusamus fugiat, non, placeat eos voluptatibus ut quod ipsam
+                            cupiditate,
+                            voluptas obcaecati quia illo. Quae. Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Eveniet adipisci, impedit ipsum nostrum maiores doloremque porro praesentium esse
+                            incidunt cum architecto nihil id repellendus, voluptatem culpa similique corrupti tempora
+                            nemo?</p>
+                    </div>
+                </article>
+            </section>
+    </main>
+    <footer class="mt-3">
+        <h2 class="text-center font-weight-bold text-capitalize">Only the freshest fish around</h2>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"
+        async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"
+        async defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"
+        async defer></script>
+</body>
+
+</html>
